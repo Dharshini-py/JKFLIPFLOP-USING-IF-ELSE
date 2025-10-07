@@ -42,21 +42,21 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **PROGRAM**
 
-module JK(j,k,clk,q,qbar);
-input j,k,clk;
-output reg q,qbar;
-initial 
-begin
-q=1'b0;
-q=1'b1;
-end 
-
-always @(posedge clk)
-begin 
-q<=(j&~q)|(~k&q);
-qbar<=~q;
-end
-endmodule 
+module JK(j,k,clk,q,qbar);  
+input j,k,clk; 
+output reg q,qbar;  
+initial   
+begin  
+q=1'b0;  
+q=1'b1;  
+end   
+  
+always @(posedge clk) 
+begin   
+q<=(j&~q)|(~k&q);   
+qbar<=~q;  
+end  
+endmodule    
 
 **RTL LOGIC FOR FLIPFLOPS**
 
@@ -67,4 +67,5 @@ endmodule
 <img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/51be8455-8d54-42e9-8bab-54cf836c298d" />
 
 **RESULTS**
+
 Thus the JK flipflop is implemented and verified.
