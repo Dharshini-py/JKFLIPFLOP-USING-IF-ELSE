@@ -68,7 +68,7 @@ REGISTER NUMBER:25010872
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
-<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/51be8455-8d54-42e9-8bab-54cf836c298d" />
+<img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/8c01e0fd-5af0-40a9-9482-83f81a6a34af" />
 
 **RESULTS**
 
